@@ -1,16 +1,14 @@
-import CleanUp from "./window/CleanUp"
-
-import Fetch from "./window/Fetch";
+import Main from "./fetch.api/Main"
 
 
 function App() {
-  
+
 
   return (
     <>
-      <Fetch/>
+      <Main/>
     </>
   )
 }
 
-export default App;
+export default App
